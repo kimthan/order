@@ -1,0 +1,44 @@
+body {
+  background-color: #53615f;
+}
+
+
+#loggo{
+  width:200px;
+}
+
+nav{
+  background-color: white;
+  text-align: center;
+}
+
+
+
+@media (min-width: 376px){
+  .menuSize{
+    display:flex;
+   justify-content: space-around;
+  }
+}
+
+@media (max-width: 376px){
+  div{
+    margin:auto;
+  }
+  .size{
+    margin-top: 20px;
+  }
+}
+.size{
+  width: 300px;
+  
+}
+.card1{
+  width:200px;
+}
+
+.dish{
+  display: flex;
+ flex-wrap: wrap;
+
+}
