@@ -34,11 +34,11 @@ class YourOrder extends Component {
       
       
     return (
-        <div>
-            <div style={{textAlign:'center', marginTop:20, marginBottom:10}}>
+        <div style={{position:'relative'}}>
+            <div style={{textAlign:'center' }}>
                 <h1>Din Order</h1>
             </div>
-      <div className="menuSize">
+      <div className="menuSize" style={{marginBottom:0, paddingBottom:0}}>
         {menuList}
         
       </div><br/><div style={{textAlign:'center'}}>
@@ -46,7 +46,7 @@ class YourOrder extends Component {
       <h1 style={{textAlign:'center', display:'inline'}}>Att betala i kassan: {yourOrder[0].price}kr </h1>
       <button 
       onClick={this.handleClick.bind(this)}
-      style={{textAlign:'center', width:200, height:100, fontSize:30}} className="btn btn-success">Bekräfta</button>
+      style={{textAlign:'center', width:200, height:100, fontSize:30, marginBottom:20}} className="btn btn-success">Bekräfta</button>
       </div>
         </div>
     );

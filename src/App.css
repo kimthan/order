@@ -14,12 +14,13 @@ nav{
 
 
 
-@media (min-width: 376px){
+
   .menuSize{
     display:flex;
    justify-content: space-around;
+   
   }
-}
+
 
 @media (max-width: 376px){
   div{
@@ -41,4 +42,12 @@ nav{
   display: flex;
  flex-wrap: wrap;
 
+
 }
+
+.card-body{
+  margin-top: 0;
+  padding-bottom: 50px;
+  padding-top: 0;
+}
+
