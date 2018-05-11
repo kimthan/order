@@ -10,7 +10,7 @@ class GoToCashier extends Component {
                 <h2   >Ange:</h2>
                 <h2   style={{fontSize:80, marginBottom:100, marginTop:-20}}>#{ordernr}</h2>
                 
-                <h2>QR CODE</h2>
+                
                 <img style={{marginTop:-20}} src="/bilder/qrcode.png" alt="qrcode" />
                 </div>
            
