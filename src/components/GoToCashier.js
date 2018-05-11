@@ -8,7 +8,7 @@ class GoToCashier extends Component {
         return (
             <div style={{textAlign:'center', marginTop:-10}}>
                 <h2   >Ange:</h2>
-                <h2   style={{fontSize:80, marginBottom:100, marginTop:-10}}>#{ordernr}</h2>
+                <h2   style={{fontSize:80, marginBottom:30, marginTop:-10}}>#{ordernr}</h2>
                 
                 <h2   >QR KOD:</h2>
                 <img style={{marginTop:-20}} src="/bilder/qrcode.png" alt="qrcode" />
